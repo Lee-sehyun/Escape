@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{BEAA5103-B49B-CC57-13B8-BACFD9988B6E}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/AI/AIMove.cs">
+    <Files>
+      <File FileName="Assets/AI/AIMove.cs" Line="30" Column="62" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Laboratory Escape" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="AI" expanded="True">
+                <Node name="AIMove.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="87f34e71-afd8-4b75-8a92-9355bdc9cbff" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
