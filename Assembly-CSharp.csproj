@@ -66,6 +66,7 @@
     <Compile Include="Assets\AI\AIMove.cs" />
     <Compile Include="Assets\GameMenu\Assets\Scripts\ButtonEnd.cs" />
     <Compile Include="Assets\GameMenu\Assets\Scripts\ButtonStart.cs" />
+    <Compile Include="Assets\GameMenu\GameQuit.cs" />
     <Compile Include="Assets\Scripts\BackgroundManager.cs" />
     <Compile Include="Assets\Scripts\CharcterMoving.cs" />
     <Compile Include="Assets\Scripts\EnemyManager.cs" />

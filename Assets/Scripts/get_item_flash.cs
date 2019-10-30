@@ -7,6 +7,7 @@ public class get_item_flash : MonoBehaviour
     public GameObject[] on_item;
     public GameObject[] get_item;
     public GameObject[] tools;
+    public GameObject block;
 
     public bool[] check;
 
@@ -31,7 +32,7 @@ public class get_item_flash : MonoBehaviour
     void Update()
     {
         flash_item();
-        
+        clear_Game();
     }
     void flash_item()
     {
@@ -54,6 +55,15 @@ public class get_item_flash : MonoBehaviour
                     }
                 }
             }
+        }
+
+    }
+    void clear_Game()
+    {
+        if (check[0] == true && check[1] == true)
+        {
+            Debug.Log("Clear");
+            block.SetActive(false);
         }
 
     }

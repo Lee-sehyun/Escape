@@ -311,6 +311,19 @@ public class CharcterMoving : MonoBehaviour
         }
     }
 
+    private void OnCollisionEnter(Collision other)
+    {
+        if (other.collider.tag.Equals("AI"))
+        {
+            Application.LoadLevel(2);
+        }
+
+        if (other.collider.tag.Equals("Po"))
+        {
+            Application.LoadLevel(3);
+        }
+    }
+
 
 
 }
