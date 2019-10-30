@@ -10,10 +10,15 @@ public class SoundManager : MonoBehaviour
 
     public AudioSource beep;
 
+    private CharcterMoving thePlayerMoving;
+
     public bool nearFlag = false;
+
+    public GameObject thePlayer;
 
     void Start()
     {
+        thePlayerMoving = thePlayer.GetComponent<CharcterMoving>();
         theEnemy = new EnemyManager[enemyObj.Length];
 
         for (int i = 0; i < enemyObj.Length; i++)
@@ -30,7 +35,11 @@ public class SoundManager : MonoBehaviour
         if (nearFlag)
         {
             //if (!beep.isPlaying)
-            beep.Play();
+            if(thePlayerMoving.currentTool == "rader")
+            {
+                beep.Play();
+            }
+            
                 //StopAndPlaySound(beep);
         }
         else

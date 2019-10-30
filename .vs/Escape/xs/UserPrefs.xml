@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{0FB0ABFC-946D-1633-8070-49DD687763D9}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/on_off_item.cs">
+    <Files>
+      <File FileName="Assets/Scripts/SoundManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/get_item_flash.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/on_off_item.cs" Line="13" Column="42" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Escape" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="on_off_item.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="b90294a7-58d0-4ee7-9339-31beceee25c4" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
