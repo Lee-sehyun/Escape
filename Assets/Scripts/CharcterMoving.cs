@@ -16,6 +16,7 @@ public class CharcterMoving : MonoBehaviour
     private float runSpeed;
     private float subRunSpeed;
     private float applySpeed;
+    public int number;
     // applySpeed를 사용하는 이유 : walkSpeed와 runSpeed를 대입해서 사용 할 수 있기 때문 이게 아니면 함수 2개를 써야한다
 
     [SerializeField]
@@ -318,9 +319,9 @@ public class CharcterMoving : MonoBehaviour
             Application.LoadLevel(2);
         }
 
-        if (other.collider.tag.Equals("Po"))
+        if (other.collider.tag.Equals("End"))
         {
-            Application.LoadLevel(3);
+            Application.LoadLevel(number);
         }
     }
 
