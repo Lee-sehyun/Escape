@@ -5,8 +5,10 @@ using UnityEngine;
 public class SoundManager : MonoBehaviour
 {
     public GameObject[] enemyObj;
+    public GameObject[] itemObj;
 
     private EnemyManager[] theEnemy;
+    private ItemManager[] theItem;
 
     public AudioSource beep;
 
@@ -20,27 +22,38 @@ public class SoundManager : MonoBehaviour
     {
         thePlayerMoving = thePlayer.GetComponent<CharcterMoving>();
         theEnemy = new EnemyManager[enemyObj.Length];
+        theItem = new ItemManager[itemObj.Length];
 
         for (int i = 0; i < enemyObj.Length; i++)
         {
             theEnemy[i] = enemyObj[i].GetComponent<EnemyManager>();
+
+        }
+        for (int i = 0; i < itemObj.Length; i++)
+        {
+            theItem[i] = itemObj[i].GetComponent<ItemManager>();
+
         }
     }
 
 
     void Update()
     {
-        EnemiesNearCheck();
+
+        //EnemiesNearCheck();
+
+
+        ItemNearCheck();
 
         if (nearFlag)
         {
             //if (!beep.isPlaying)
-            if(thePlayerMoving.currentTool == "rader")
+            if (thePlayerMoving.currentTool == "rader")
             {
                 beep.Play();
             }
-            
-                //StopAndPlaySound(beep);
+
+            //StopAndPlaySound(beep);
         }
         else
         {
@@ -56,7 +69,20 @@ public class SoundManager : MonoBehaviour
 
         for (int i = 0; i < enemyObj.Length; i++)
         {
-            if (theEnemy[i].isNear)
+            if (theEnemy[i].isNear_Enemy)
+            {
+                nearFlag = true;
+                break;
+            }
+        }
+    }
+    private void ItemNearCheck()
+    {
+        nearFlag = false;
+
+        for (int i = 0; i < itemObj.Length; i++)
+        {
+            if (theItem[i].isNear)
             {
                 nearFlag = true;
                 break;

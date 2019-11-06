@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{0FB0ABFC-946D-1633-8070-49DD687763D9}</ProjectGuid>
+    <ProjectGuid>{3FB96D17-86F1-A23A-F2BB-E762A3D9F699}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -73,66 +73,68 @@
     <Compile Include="Assets\Scripts\GageDown.cs" />
     <Compile Include="Assets\Scripts\get_item.cs" />
     <Compile Include="Assets\Scripts\get_item_flash.cs" />
+    <Compile Include="Assets\Scripts\Interface_manager.cs" />
+    <Compile Include="Assets\Scripts\ItemManager.cs" />
     <Compile Include="Assets\Scripts\LightController.cs" />
     <Compile Include="Assets\Scripts\on_off_item.cs" />
     <Compile Include="Assets\Scripts\SoundManager.cs" />
     <Compile Include="Assets\Scripts\ToolInformation.cs" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>/Users/kimdongha/인지융프로젝트/Escape/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>/Users/kimkanghun/Desktop/EM/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.multiplayer-hlapi.Editor">
-      <HintPath>/Users/kimdongha/인지융프로젝트/Escape/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll</HintPath>
+      <HintPath>/Users/kimkanghun/Desktop/EM/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>/Users/kimdongha/인지융프로젝트/Escape/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>/Users/kimkanghun/Desktop/EM/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/kimdongha/인지융프로젝트/Escape/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/kimkanghun/Desktop/EM/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>/Users/kimdongha/인지융프로젝트/Escape/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>/Users/kimkanghun/Desktop/EM/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>/Users/kimdongha/인지융프로젝트/Escape/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>/Users/kimkanghun/Desktop/EM/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>/Users/kimdongha/인지융프로젝트/Escape/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>/Users/kimkanghun/Desktop/EM/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.multiplayer-weaver.Editor">
-      <HintPath>/Users/kimdongha/인지융프로젝트/Escape/Library/ScriptAssemblies/com.unity.multiplayer-weaver.Editor.dll</HintPath>
+      <HintPath>/Users/kimkanghun/Desktop/EM/Library/ScriptAssemblies/com.unity.multiplayer-weaver.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
-      <HintPath>/Users/kimdongha/인지융프로젝트/Escape/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+      <HintPath>/Users/kimkanghun/Desktop/EM/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>/Users/kimdongha/인지융프로젝트/Escape/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>/Users/kimkanghun/Desktop/EM/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>/Users/kimdongha/인지융프로젝트/Escape/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+      <HintPath>/Users/kimkanghun/Desktop/EM/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>/Users/kimdongha/인지융프로젝트/Escape/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+      <HintPath>/Users/kimkanghun/Desktop/EM/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.SpatialTracking">
-      <HintPath>/Users/kimdongha/인지융프로젝트/Escape/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+      <HintPath>/Users/kimkanghun/Desktop/EM/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SpatialTracking">
-      <HintPath>/Users/kimdongha/인지융프로젝트/Escape/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+      <HintPath>/Users/kimkanghun/Desktop/EM/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/kimdongha/인지융프로젝트/Escape/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/kimkanghun/Desktop/EM/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>/Users/kimdongha/인지융프로젝트/Escape/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>/Users/kimkanghun/Desktop/EM/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
-      <HintPath>/Users/kimdongha/인지융프로젝트/Escape/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+      <HintPath>/Users/kimkanghun/Desktop/EM/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>/Users/kimdongha/인지융프로젝트/Escape/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>/Users/kimkanghun/Desktop/EM/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.multiplayer-hlapi.Runtime">
-      <HintPath>/Users/kimdongha/인지융프로젝트/Escape/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
+      <HintPath>/Users/kimkanghun/Desktop/EM/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Hub/Editor/2019.2.0f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -312,13 +314,13 @@
       <HintPath>/Applications/Unity/Hub/Editor/2019.2.0f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>/Users/kimdongha/인지융프로젝트/Escape/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>/Users/kimkanghun/Desktop/EM/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>/Users/kimdongha/인지융프로젝트/Escape/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>/Users/kimkanghun/Desktop/EM/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>/Users/kimdongha/인지융프로젝트/Escape/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>/Users/kimkanghun/Desktop/EM/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>/Applications/Unity/Hub/Editor/2019.2.0f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

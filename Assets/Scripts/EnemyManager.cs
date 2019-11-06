@@ -9,7 +9,7 @@ public class EnemyManager : MonoBehaviour
     public float reactDist;
     private float distance;
 
-    public bool isNear = false;
+    public bool isNear_Enemy = false;
 
     void Start()
     {
@@ -20,7 +20,7 @@ public class EnemyManager : MonoBehaviour
     void Update()
     {
         distance = Vector3.Distance(thePlayer.transform.position, transform.position);
-        Debug.Log(distance);
+        //Debug.Log(distance);
 
         NearCheck();
     }
@@ -29,11 +29,12 @@ public class EnemyManager : MonoBehaviour
     {
         if (distance <= reactDist)
         {
-            isNear = true;
+            isNear_Enemy = true;
         }
         else
         {
-            isNear = false;
+            isNear_Enemy = false;
         }
     }
+   
 }

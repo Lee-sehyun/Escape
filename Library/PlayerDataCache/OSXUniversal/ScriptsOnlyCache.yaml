@@ -10,6 +10,8 @@ ScriptsOnlyBuild:
     - EnemyManager
     - GageDown
     - GameQuit
+    - Interface_manager
+    - ItemManager
     - LightController
     - SoundManager
     - ToolInformation
@@ -68,15 +70,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9934}
     - Class: 114
-      Script: {instanceID: 10428}
+      Script: {instanceID: 10430}
     - Class: 114
-      Script: {instanceID: 10898}
+      Script: {instanceID: 10776}
     - Class: 114
-      Script: {instanceID: 10920}
+      Script: {instanceID: 10862}
     - Class: 114
-      Script: {instanceID: 11454}
+      Script: {instanceID: 10906}
     - Class: 114
-      Script: {instanceID: 11902}
+      Script: {instanceID: 10928}
+    - Class: 114
+      Script: {instanceID: 11462}
+    - Class: 114
+      Script: {instanceID: 11912}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -121,15 +127,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9934}
     - Class: 114
-      Script: {instanceID: 10428}
+      Script: {instanceID: 10430}
     - Class: 114
-      Script: {instanceID: 10898}
+      Script: {instanceID: 10776}
     - Class: 114
-      Script: {instanceID: 10920}
+      Script: {instanceID: 10862}
     - Class: 114
-      Script: {instanceID: 11454}
+      Script: {instanceID: 10906}
     - Class: 114
-      Script: {instanceID: 11902}
+      Script: {instanceID: 10928}
+    - Class: 114
+      Script: {instanceID: 11462}
+    - Class: 114
+      Script: {instanceID: 11912}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -190,33 +200,37 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10014}
     - Class: 114
-      Script: {instanceID: 10428}
+      Script: {instanceID: 10276}
     - Class: 114
-      Script: {instanceID: 10814}
+      Script: {instanceID: 10430}
     - Class: 114
-      Script: {instanceID: 10828}
+      Script: {instanceID: 10818}
     - Class: 114
-      Script: {instanceID: 10898}
+      Script: {instanceID: 10832}
     - Class: 114
-      Script: {instanceID: 11272}
+      Script: {instanceID: 10846}
     - Class: 114
-      Script: {instanceID: 11304}
+      Script: {instanceID: 10906}
     - Class: 114
-      Script: {instanceID: 11370}
+      Script: {instanceID: 11280}
     - Class: 114
-      Script: {instanceID: 11448}
+      Script: {instanceID: 11312}
     - Class: 114
-      Script: {instanceID: 11454}
+      Script: {instanceID: 11378}
     - Class: 114
-      Script: {instanceID: 11628}
+      Script: {instanceID: 11456}
     - Class: 114
-      Script: {instanceID: 11680}
+      Script: {instanceID: 11462}
     - Class: 114
-      Script: {instanceID: 11902}
+      Script: {instanceID: 11636}
     - Class: 114
-      Script: {instanceID: 11982}
+      Script: {instanceID: 11688}
     - Class: 114
-      Script: {instanceID: 27228}
+      Script: {instanceID: 11896}
+    - Class: 114
+      Script: {instanceID: 11912}
+    - Class: 114
+      Script: {instanceID: 11992}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -293,23 +307,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10148}
     - Class: 114
-      Script: {instanceID: 10428}
+      Script: {instanceID: 10430}
     - Class: 114
-      Script: {instanceID: 10832}
+      Script: {instanceID: 10776}
     - Class: 114
-      Script: {instanceID: 10898}
+      Script: {instanceID: 10836}
     - Class: 114
-      Script: {instanceID: 10920}
+      Script: {instanceID: 10862}
     - Class: 114
-      Script: {instanceID: 11268}
+      Script: {instanceID: 10906}
     - Class: 114
-      Script: {instanceID: 11454}
+      Script: {instanceID: 10928}
     - Class: 114
-      Script: {instanceID: 11902}
+      Script: {instanceID: 11276}
     - Class: 114
-      Script: {instanceID: 18490}
+      Script: {instanceID: 11462}
     - Class: 114
-      Script: {instanceID: 18492}
+      Script: {instanceID: 11912}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -531,6 +545,12 @@ ScriptsOnlyBuild:
     className: AnimationPlayableAsset
   - hash:
       serializedVersion: 2
+      Hash: b6127c202e0a67e42e9c6db2607674e4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Interface_manager
+  - hash:
+      serializedVersion: 2
       Hash: aba7b2852ef61d175dd9602e7723d5e5
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -645,13 +665,19 @@ ScriptsOnlyBuild:
     className: TMP_SpriteAnimator
   - hash:
       serializedVersion: 2
+      Hash: 423b732f4fa271c6b0e5b4556867edec
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ButtonStart
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: RemoteTestResultSender
   - hash:
       serializedVersion: 2
-      Hash: 9de03aad91266adc46c7818d4c60ee19
+      Hash: d89cd64664e4ab2146fbf673e7f2ac6c
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: EnemyManager
@@ -661,6 +687,18 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ToolInformation
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameQuit
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ButtonEnd
   - hash:
       serializedVersion: 2
       Hash: 4fd8bf02e3089425d3502e26c44ba31a
@@ -747,7 +785,7 @@ ScriptsOnlyBuild:
     className: TimelineAsset
   - hash:
       serializedVersion: 2
-      Hash: a60c880ea572fa7496c3bbc03119bccb
+      Hash: 8575bd9cfbe870f9c8d2adc870e1e047
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SoundManager
@@ -909,6 +947,12 @@ ScriptsOnlyBuild:
     className: Dropdown
   - hash:
       serializedVersion: 2
+      Hash: 77eb727a7d2b6c149171857b03a06a67
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ItemManager
+  - hash:
+      serializedVersion: 2
       Hash: 748dd2a2a28da4e618912da5ac45684b
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
@@ -949,28 +993,10 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: get_item
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ButtonStart
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ButtonEnd
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GameQuit
   platform: 2
   scenePathNames:
   - Assets/Scenes/MainTitle.unity
   - Assets/Scenes/InGame.unity
   - Assets/Scenes/GameOver.unity
   - Assets/Scenes/Clear.unity
-  playerPath: "/Users/kimdongha/\u110B\u1175\u11AB\u110C\u1175\u110B\u1172\u11BC\u1111\u1173\u1105\u1169\u110C\u1166\u11A8\u1110\u1173/Escape/InGi.app"
+  playerPath: /Users/kimkanghun/Desktop/EM/EM.app
