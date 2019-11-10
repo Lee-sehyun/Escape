@@ -2428,7 +2428,7 @@ MonoBehaviour:
   number: 1
   jumpForce: 4
   isExhausted: 0
-  runcount: 300
+  runcount: 100
   lookSensitvity: 3.5
   cameraRotionLimit: 90
   theCamera: {fileID: 544049425}
@@ -6131,7 +6131,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c419bc62b66784934b6671ba9c2053c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 300
+  size: 100
   Y: 1
   thePlayer: {fileID: 367340037}
 --- !u!114 &1159733964

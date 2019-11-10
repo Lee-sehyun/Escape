@@ -28,7 +28,7 @@ public class CharcterMoving : MonoBehaviour
     public bool isExhausted; // 탈진상태이면 true
     // 땅 착지 여부
     private CapsuleCollider capsuleCollider;
-    public int runcount = 300;
+    public int runcount = 100;
 
 
     [SerializeField]
@@ -188,7 +188,7 @@ public class CharcterMoving : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.LeftShift) && (Input.GetAxisRaw("Horizontal") != 0 || Input.GetAxisRaw("Vertical") != 0)) // GetKey : 키가 계속 눌러지고 있는 상태
         {
-            if (runcount > 0 && runcount <= 300)
+            if (runcount > 0 && runcount <= 100)
             {
                 Running();
                 runcount--;
@@ -197,7 +197,7 @@ public class CharcterMoving : MonoBehaviour
         }
         else
         {
-            if (runcount >= 0 && runcount < 300)
+            if (runcount >= 0 && runcount < 100)
             {
                 RunningCancel();
                 runcount++;
@@ -218,7 +218,7 @@ public class CharcterMoving : MonoBehaviour
             isExhausted = true;
             walkCheck = "exhausted";
         }
-        if (runcount > 150)
+        if (runcount > 50)
         {
             walkSpeed = subWalkSpeed;
             runSpeed = subRunSpeed;

@@ -21,7 +21,7 @@ public class GageDown : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        size = charcter.runcount;
+        size = charcter.runcount * 3;
 
         SizeDown();
     }

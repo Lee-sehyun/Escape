@@ -17,7 +17,7 @@ public class AIMove : MonoBehaviour
     public GameObject AI; // AI설정
     public int count; 
     public int count2;
-    int[] destination = { 0, 0, 0, 0, 0, 0, 0, 0 }; // 목적지의 순서와 랜덤함수를 적용시키기 위한 리스트
+    int[] destination = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }; // 목적지의 순서와 랜덤함수를 적용시키기 위한 리스트
 
     private void Awake()
 	{
