@@ -1,12 +1,13 @@
 ﻿<Properties StartupConfiguration="{0FB0ABFC-946D-1633-8070-49DD687763D9}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/get_item_flash.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SoundManager.cs">
     <Files>
       <File FileName="Assets/Scripts/Keyrandom.cs" Line="27" Column="28" />
-      <File FileName="Assets/AI/AIMove.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/get_item.cs" Line="1" Column="1" />
+      <File FileName="Assets/AI/AIMove.cs" />
+      <File FileName="Assets/Scripts/get_item.cs" />
       <File FileName="Assets/AI/AIFOV.cs" />
-      <File FileName="Assets/Scripts/get_item_flash.cs" Line="47" Column="14" />
+      <File FileName="Assets/Scripts/get_item_flash.cs" Line="40" Column="46" />
       <File FileName="Assets/Scripts/Interface_manager.cs" />
+      <File FileName="Assets/Scripts/SoundManager.cs" Line="51" Column="23" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,7 +16,7 @@
             <Node name="Assets" expanded="True">
               <Node name="AI" expanded="True" />
               <Node name="Scripts" expanded="True">
-                <Node name="get_item_flash.cs" selected="True" />
+                <Node name="SoundManager.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -25,7 +26,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="d6872aa9-8763-4041-a1d2-6a28913fc7af" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="4f5662b6-3f2a-436d-a8bc-20fa684515aa" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

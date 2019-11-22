@@ -24,6 +24,25 @@ public class SoundManager : MonoBehaviour
         theEnemy = new EnemyManager[enemyObj.Length];
         theItem = new ItemManager[itemObj.Length];
 
+        var Key_ran = GameObject.Find("key_o").GetComponent<Keyrandom>();
+        for (int i = 0; i < Key_ran.key.Length; i++)
+        {
+            if (Key_ran.cnt[i] == 1)
+            {
+                enemyObj[1] = Key_ran.key[i];
+                itemObj[1] = Key_ran.key[i];
+            }
+        }
+        var Po_ran = GameObject.Find("po_o").GetComponent<Keyrandom>();
+        for (int i = 0; i < Po_ran.key.Length; i++)
+        {
+            if (Po_ran.cnt[i] == 1)
+            {
+                enemyObj[0] = Po_ran.key[i];
+                itemObj[0] = Po_ran.key[i];
+            }
+        }
+
         for (int i = 0; i < enemyObj.Length; i++)
         {
             theEnemy[i] = enemyObj[i].GetComponent<EnemyManager>();
