@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+//해당코드는 소리와 관련된 코드입니다.
+
 public class SoundManager : MonoBehaviour
 {
     public GameObject[] enemyObj;
@@ -20,9 +23,9 @@ public class SoundManager : MonoBehaviour
 
     void Start()
     {
-        thePlayerMoving = thePlayer.GetComponent<CharcterMoving>();
-        theEnemy = new EnemyManager[enemyObj.Length];
-        theItem = new ItemManager[itemObj.Length];
+        thePlayerMoving = thePlayer.GetComponent<CharcterMoving>(); // 플레이어의 상태를 받아옵니다
+        theEnemy = new EnemyManager[enemyObj.Length]; // 에나미 매니저 스크립트를 받아옵니다
+        theItem = new ItemManager[itemObj.Length]; // 아이템 매니저 스크립트를 받아옵니다
 
         var Key_ran = GameObject.Find("key_o").GetComponent<Keyrandom>();
         for (int i = 0; i < Key_ran.key.Length; i++)
@@ -64,7 +67,7 @@ public class SoundManager : MonoBehaviour
 
         ItemNearCheck();
 
-        if (nearFlag)
+        if (nearFlag) // nearFlag가 True라면은 사운드를 재생합니다
         {
             //if (!beep.isPlaying)
             if (thePlayerMoving.currentTool == "rader")
@@ -84,7 +87,7 @@ public class SoundManager : MonoBehaviour
 
     private void EnemiesNearCheck()
     {
-        nearFlag = false;
+        nearFlag = false;  // nearFlag가 True라면은 사운드를 재생합니다
 
         for (int i = 0; i < enemyObj.Length; i++)
         {

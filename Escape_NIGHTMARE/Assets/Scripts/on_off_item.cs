@@ -1,5 +1,5 @@
 ﻿//해당 스크립트는 특정버튼을 눌렀을때 활성화 되는 코드임
-//제작자 김강훈
+
 
 using System.Collections;
 using System.Collections.Generic;
@@ -12,11 +12,11 @@ public class on_off_item : MonoBehaviour
 
     private CharcterMoving thePlayerMoving;
 
-   
+
     // Start is called before the first frame update
     void Start()
     {
-        thePlayerMoving = thePlayer.GetComponent<CharcterMoving>();
+        thePlayerMoving = thePlayer.GetComponent<CharcterMoving>(); //플레이어의 상태를 받아옵니.
     }
 
     // Update is called once per frame
@@ -29,13 +29,13 @@ public class on_off_item : MonoBehaviour
     {
         if (off_item[0] == true)
         {
-            if (thePlayerMoving.currentTool == "flashlight")
+            if (thePlayerMoving.currentTool == "flashlight") //플레이의 상태에서 flashlight라면 손전등을 활성화합니다
             {
                 off_item[0].SetActive(true);
                 off_item[1].SetActive(false);
             }
 
-            if (thePlayerMoving.currentTool == "rader")
+            if (thePlayerMoving.currentTool == "rader") //플레이의 상태에서 rader라면 레이더 활성화합니다
             {
                 off_item[1].SetActive(true);
                 off_item[0].SetActive(false);
@@ -44,4 +44,3 @@ public class on_off_item : MonoBehaviour
     }
 
 }
-

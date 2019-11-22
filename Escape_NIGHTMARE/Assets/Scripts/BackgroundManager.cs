@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+// 해당 코드는 플레이어의 상태를 받아서, Back ground를 호출합니다.
 public class BackgroundManager : MonoBehaviour
 {
     public GameObject exhustedBG;
@@ -11,7 +13,7 @@ public class BackgroundManager : MonoBehaviour
 
     void Start()
     {
-        charcter = thePlayer.GetComponent<CharcterMoving>();
+        charcter = thePlayer.GetComponent<CharcterMoving>(); //플레이어의 상태를 받아옵니다.
     }
 
     // Update is called once per frame
@@ -21,7 +23,7 @@ public class BackgroundManager : MonoBehaviour
     }
 
 
-    private void ExhustedOnOff()
+    private void ExhustedOnOff() //플레이어의 상태가 탈진상태이면 탈진 BackGround를 호출합니.
     {
         if (charcter.isExhausted)
         {

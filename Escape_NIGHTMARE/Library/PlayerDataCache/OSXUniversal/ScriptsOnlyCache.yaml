@@ -12,7 +12,7 @@ ScriptsOnlyBuild:
     - GameQuit
     - Interface_manager
     - ItemManager
-    - LightController
+    - Keyrandom
     - On_off_message
     - On_off_message_2
     - SoundManager
@@ -74,13 +74,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10440}
     - Class: 114
-      Script: {instanceID: 10786}
+      Script: {instanceID: 10788}
     - Class: 114
-      Script: {instanceID: 10874}
+      Script: {instanceID: 10876}
     - Class: 114
-      Script: {instanceID: 10918}
+      Script: {instanceID: 10920}
     - Class: 114
-      Script: {instanceID: 10940}
+      Script: {instanceID: 10942}
     - Class: 114
       Script: {instanceID: 11476}
     - Class: 114
@@ -114,10 +114,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
-    - Class: 82
-      Script: {instanceID: 0}
-    - Class: 83
-      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
@@ -131,13 +127,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10440}
     - Class: 114
-      Script: {instanceID: 10786}
+      Script: {instanceID: 10788}
     - Class: 114
-      Script: {instanceID: 10874}
+      Script: {instanceID: 10876}
     - Class: 114
-      Script: {instanceID: 10918}
+      Script: {instanceID: 10920}
     - Class: 114
-      Script: {instanceID: 10940}
+      Script: {instanceID: 10942}
     - Class: 114
       Script: {instanceID: 11476}
     - Class: 114
@@ -155,6 +151,10 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 328
+      Script: {instanceID: 0}
+    - Class: 329
       Script: {instanceID: 0}
     Assets/Scenes/InGame.unity:
     - Class: 1
@@ -206,17 +206,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10440}
     - Class: 114
-      Script: {instanceID: 10830}
+      Script: {instanceID: 10756}
     - Class: 114
-      Script: {instanceID: 10844}
+      Script: {instanceID: 10832}
     - Class: 114
-      Script: {instanceID: 10858}
+      Script: {instanceID: 10846}
     - Class: 114
-      Script: {instanceID: 10918}
+      Script: {instanceID: 10860}
     - Class: 114
-      Script: {instanceID: 11292}
+      Script: {instanceID: 10920}
     - Class: 114
-      Script: {instanceID: 11324}
+      Script: {instanceID: 11294}
     - Class: 114
       Script: {instanceID: 11392}
     - Class: 114
@@ -233,6 +233,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 11926}
     - Class: 114
       Script: {instanceID: 12006}
+    - Class: 114
+      Script: {instanceID: 14776}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -311,17 +313,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10440}
     - Class: 114
-      Script: {instanceID: 10786}
+      Script: {instanceID: 10788}
     - Class: 114
-      Script: {instanceID: 10848}
+      Script: {instanceID: 10850}
     - Class: 114
-      Script: {instanceID: 10874}
+      Script: {instanceID: 10876}
     - Class: 114
-      Script: {instanceID: 10918}
+      Script: {instanceID: 10920}
     - Class: 114
-      Script: {instanceID: 10940}
+      Script: {instanceID: 10942}
     - Class: 114
-      Script: {instanceID: 11288}
+      Script: {instanceID: 11290}
     - Class: 114
       Script: {instanceID: 11476}
     - Class: 114
@@ -396,19 +398,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10440}
     - Class: 114
-      Script: {instanceID: 10808}
+      Script: {instanceID: 10756}
     - Class: 114
-      Script: {instanceID: 10830}
+      Script: {instanceID: 10810}
     - Class: 114
-      Script: {instanceID: 10844}
+      Script: {instanceID: 10832}
     - Class: 114
-      Script: {instanceID: 10858}
+      Script: {instanceID: 10846}
     - Class: 114
-      Script: {instanceID: 10918}
+      Script: {instanceID: 10860}
     - Class: 114
-      Script: {instanceID: 11292}
+      Script: {instanceID: 10920}
     - Class: 114
-      Script: {instanceID: 11324}
+      Script: {instanceID: 11294}
     - Class: 114
       Script: {instanceID: 11380}
     - Class: 114
@@ -427,6 +429,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 11926}
     - Class: 114
       Script: {instanceID: 12006}
+    - Class: 114
+      Script: {instanceID: 14776}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -756,6 +760,12 @@ ScriptsOnlyBuild:
     className: AnalyticsEventTrackerEditor
   - hash:
       serializedVersion: 2
+      Hash: a8fc64814f8409c464d7e69003ec792b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Keyrandom
+  - hash:
+      serializedVersion: 2
       Hash: 21e871d89bbce53c038fc75ad1b7c7f3
     assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
     namespaceName: UnityEngine.Networking
@@ -898,12 +908,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SoundManager
-  - hash:
-      serializedVersion: 2
-      Hash: eba923d826bcf52bdd77aa6d834c7d97
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: LightController
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f

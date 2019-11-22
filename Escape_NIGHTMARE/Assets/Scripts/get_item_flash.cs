@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// 이 스크립트는 아이템을 먹으면 UI가 활성화 됩니다.
 public class get_item_flash : MonoBehaviour
 {
     public GameObject[] on_item;
@@ -17,6 +18,7 @@ public class get_item_flash : MonoBehaviour
 
 
     // Start is called before the first frame update
+    // 도구 상태를 파악합니다.
     void Start()
     {
         toolsInfo = new ToolInformation[tools.Length];
@@ -32,6 +34,7 @@ public class get_item_flash : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // 랜덤으로 설정된 아이템을 가져옵니다.
         var Key_ran = GameObject.Find("key_o").GetComponent<Keyrandom>();
         for (int i = 0; i < Key_ran.key.Length; i++)
         {
@@ -51,6 +54,8 @@ public class get_item_flash : MonoBehaviour
         flash_item();
         clear_Game();
     }
+
+    // 아이템을 먹었을 경우 아이템 UI가 활성화 됩니다.
     void flash_item()
     {
         for (int i = 0; i < on_item.Length; i++)
@@ -75,6 +80,8 @@ public class get_item_flash : MonoBehaviour
         }
 
     }
+
+    // 아이템 두개를 습득하면 문이 열립니다.
     void clear_Game()
     {
         if (check[0] == true && check[1] == true)
