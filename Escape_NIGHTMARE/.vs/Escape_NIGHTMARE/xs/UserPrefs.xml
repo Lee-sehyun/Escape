@@ -1,18 +1,19 @@
 ﻿<Properties StartupConfiguration="{09BD5117-8E92-45F1-5194-907EFF4939EA}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/get_item_flash.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/get_item.cs">
     <Files>
+      <File FileName="Assets/AI/AIFOV.cs" Line="1" Column="1" />
       <File FileName="Assets/AI/AIMove.cs" Line="1" Column="1" />
-      <File FileName="Assets/AI/AIFOV.cs" />
-      <File FileName="Assets/Scripts/Interface_manager.cs" Line="28" Column="14" />
-      <File FileName="Assets/Scripts/ItemManager.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/get_item_flash.cs" Line="84" Column="29" />
-      <File FileName="Assets/Scripts/Keyrandom.cs" />
-      <File FileName="Assets/Scripts/SoundManager.cs" Line="30" Column="9" />
-      <File FileName="Assets/Scripts/BackgroundManager.cs" Line="37" Column="2" />
-      <File FileName="Assets/Scripts/EnemyManager.cs" Line="3" Column="19" />
-      <File FileName="Assets/Scripts/GageDown.cs" Line="34" Column="2" />
-      <File FileName="Assets/Scripts/on_off_item.cs" Line="46" Column="2" />
-      <File FileName="Assets/Scripts/get_item.cs" Line="56" Column="23" />
+      <File FileName="Assets/Editor/FOVEditor.cs" Line="1" Column="1" />
+      <File FileName="Assets/GameMenu/Assets/Scripts/ButtonEnd.cs" Line="1" Column="1" />
+      <File FileName="Assets/GameMenu/Assets/Scripts/ButtonStart.cs" Line="1" Column="1" />
+      <File FileName="Assets/GameMenu/GameQuit.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scenes/On_off_message.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scenes/On_off_message_2.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/BackgroundManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/CharcterMoving.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/EnemyManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/GageDown.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/get_item.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -21,18 +22,29 @@
             <Node name="Assets" expanded="True">
               <Node name="AI" expanded="True" />
               <Node name="Editor" expanded="True" />
+              <Node name="GameMenu" expanded="True">
+                <Node name="Assets" expanded="True">
+                  <Node name="Scripts" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="Scenes" expanded="True" />
               <Node name="Scripts" expanded="True">
-                <Node name="get_item_flash.cs" selected="True" />
+                <Node name="get_item.cs" selected="True" />
               </Node>
             </Node>
           </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Escape_NIGHTMARE" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="4f5662b6-3f2a-436d-a8bc-20fa684515aa" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="c495576d-3541-44e0-a522-f77887e64866" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
